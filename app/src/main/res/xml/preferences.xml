@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    >
+    <EditTextPreference
+        android:id="@+id/brick_count_pref"
+        android:inputType="number"
+        android:title="@string/pref_brick_count"
+        android:key="init_brick_count"
+        android:summary="@string/pref_sum_bricks"
+        android:defaultValue="5"
+        />
+
+    <EditTextPreference
+        android:id="@+id/brick_hits_pref"
+        android:inputType="number"
+        android:key="init_brick_hits"
+        android:title="@string/pref_brick_hits"
+        android:summary="@string/pref_sum_hits"
+        android:defaultValue="2"
+        />
+
+    <EditTextPreference
+        android:id="@+id/balls_level_pref"
+        android:inputType="number"
+        android:key="init_balls_level"
+        android:title="@string/pref_balls_level"
+        android:summary="@string/pref_sum_balls"
+        android:defaultValue="3"
+        />
+
+</PreferenceScreen>
